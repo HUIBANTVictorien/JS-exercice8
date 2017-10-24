@@ -1,5 +1,5 @@
-function controle(form) {
-  var old = document.form.age.value;
+function display() {
+  var old = document.getElementById('age').value;
   if(old >= 18) {
     alert('Vous êtes majeur');
   }
